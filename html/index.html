@@ -3,45 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <title>share</title>
-    <link rel="script" src="js/share.js"/>
+
     <style>
         #div_content{
             position: absolute;
             top: 100px;
-            left: 0px;
+            left: -100px;
             height: 200px;
             width: 100px;
             margin: 0;
             padding: 0;
-            background: red;
+            background: #cccccc;
         }
         #ul_select{
             list-style-type: none;
             margin: 0;
             padding: 0;
-
-
          }
         #ul_select li{
             height: 50px;
-            line-height: 50px;
+            line-height: 55px;
             text-align: center;
+            cursor: pointer;
         }
         #ul_select li:hover{
             background: gray;
-
         }
         #btn_share{
-            background: cornflowerblue;
+            background: lightskyblue;
             width: 20px;
             height: 80px;
             position: absolute;
             left:100px;
             top: 60px;
+            cursor: pointer;
             margin: 0;
-
         }
-
 
     </style>
 </head>
@@ -52,13 +49,12 @@
         <li>微信</li>
         <li>微博</li>
         <li>贴吧</li>
-
     </ul>
     <div id="btn_share">
         点我分享
-
     </div>
 
 </div>
 </body>
+<script type="text/javascript" src="js/share.js"></script>
 </html>
